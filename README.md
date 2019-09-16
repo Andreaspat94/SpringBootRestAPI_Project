@@ -12,7 +12,7 @@ Open Command line prompt and enter the project file where pom.xml is.
 then enter the command:"mvn clean install" or "mvn clean package".
 (If you want to build with the regular mvn command, you will need Maven v3.5.0 or above)
 A jar excecutable file will be created in target file.
-Lastly, excecute that jar with this command: "java -cp target/artifactId-version-SNAPSHOT.jar package.Java-Main-File-Name"
+Lastly, excecute that jar with this command: "java -cp target/artifactId-version-SNAPSHOT.jar"
 
 
 ## Functionalities: </br>
