@@ -1,0 +1,3 @@
+insert into bundles(product_name,product_price,product_code,product_expiration_date,product_availability_date) values('Offer_2',10,'742','2020-10-22','2019-10-10')
+insert into bundles(product_name,product_price,product_code,product_expiration_date,product_availability_date) values('Offer_1',6.5,'69','2020-09-19','2019-11-05')
+insert into bundles(product_name,product_price,product_code,product_expiration_date,product_availability_date) values('Offer_3',7.5,'7','2020-08-30','2019-12-02')
