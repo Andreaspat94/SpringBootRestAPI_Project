@@ -20,11 +20,11 @@ The application contains one controller with multiple endpoints that use "Respon
 ResponseEntity represents the whole HTTP response: status code, headers, and body.
 The controller can do the below functionalities: </br>
 
-- Get all products from the database based on product's ID, name, price(ascending and descending) and code.
+- Get all products from the database based on product's ID, name, price(ascending and descending) and code: </br>
 	The controller receives one of the following path variables: "name", "id", "code", "price" and sends back the appropriate data.
 	In case of "price" variable, the user can add the parameter of "?asc=true" or "?asc=false" to take the data in ascending or 		descending order respectively. If the list is empty it returns a 204 No Content Http status. </br>
  
-- Get a selected product by entering the product's code:. </br>
+- Get a selected product by entering the product's code: </br>
 	The controller is receiving an integer (product_code) through a GET request and forms a response.
 	The Response is sent back with an appropriate message in its body if it doesn't find a product with that code(HTTP_Status = 404 not found).
 	If the product is found it responds with a HTTP_Status = 200 OK and the product itself. </br>
